@@ -1,0 +1,4 @@
+将springboot项目打包成war包
+  首先修改pom文件,将打包方式修改为war,然后将spring-boot-start-tomcat的scope设置为provided,然后在执行类上面套入相对应的配置（详情可以看D:\ideaWork\sprinboot\src\main\java\com\SprinbootApplication.java）。最后使用maven的package就行了
+
+放到服务器上的访问路径是：http://[服务器ip]:[端口号]/[打包项目名]/
